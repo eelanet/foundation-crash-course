@@ -82,6 +82,9 @@
 
 >### [5.1 Tehtävä 1](#51)
 
+>### [5.2 Tehtävä 2](#52)
+
+
 ## Mitä käydään läpi
 
 - Foundation lyhyesti
