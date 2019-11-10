@@ -1,14 +1,12 @@
 # Foundation
 
-## Sisällysluettelo
-
 ## [1 Mikä on Foundation](#1)
 
-### [1.1 Sass](#11)
+>### [1.1 Sass](#11)
 
-### [1.2 Foundationin hyödyt](#12)
+>### [1.2 Foundationin hyödyt](#12)
 
-### [1.3 Foundation vs Bootstrap](#13)
+>### [1.3 Foundation vs Bootstrap](#13)
 
 ## [2 Asentaminen](#2)
 
@@ -16,79 +14,79 @@
 
 ## [4 UI komponentit](#4)
 
-### [4.1 General](#41)
+>### [4.1 General](#41)
 
-## [4.1.1 Typography](#411)
+>>### [4.1.1 Typography](#411)
 
-### [4.1.2 Forms](#412)
+>>### [4.1.2 Forms](#412)
 
-### [4.1.3 Visibility Classes](#413)
+>>### [4.1.3 Visibility Classes](#413)
 
-### [4.2 Grid](#42)
+>### [4.2 Grid](#42)
 
-### [4.2.1 XY Grid](#421)
+>>### [4.2.1 XY Grid](#421)
 
-### [4.3 Controls](#43)
+>### [4.3 Controls](#43)
 
-### [4.3.1 Buttons](#431)
+>>### [4.3.1 Buttons](#431)
 
-### [4.3.2 Close Button](#432)
+>>### [4.3.2 Close Button](#432)
 
-### [4.3.3 Button Group](#433)
+>>### [4.3.3 Button Group](#433)
 
-### [4.3.4 Slider](#434)
+>>### [4.3.4 Slider](#434)
 
-### [4.3.5 Switch](#435)
+>>### [4.3.5 Switch](#435)
 
-### [4.4 Navigation](#44)
+>### [4.4 Navigation](#44)
 
-### [4.4.1 Menu](#441)
+>>### [4.4.1 Menu](#441)
 
-### [4.4.2 Dropdown Menu](#442)
+>>### [4.4.2 Dropdown Menu](#442)
 
-### [4.4.3 Top Bar](#443)
+>>### [4.4.3 Top Bar](#443)
 
-### [4.4.4 Breadcrumbs](#444)
+>>### [4.4.4 Breadcrumbs](#444)
 
-### [4.4.5 Pagination](#445)
+>>### [4.4.5 Pagination](#445)
 
-### [4.5 Containers](#45)
+>### [4.5 Containers](#45)
 
-### [4.5.1 Dropdown](#451)
+>>### [4.5.1 Dropdown](#451)
 
-### [4.5.2 Off Canvas](#452)
+>>### [4.5.2 Off Canvas](#452)
 
-### [4.5.3 Tabs](#453)
+>>### [4.5.3 Tabs](#453)
 
-### [4.5.4 Table](#454)
+>>### [4.5.4 Table](#454)
 
-### [4.6 Media](#46)
+>### [4.6 Media](#46)
 
-### [4.6.1 Responsive Embed](#461)
+>>### [4.6.1 Responsive Embed](#461)
 
-### [4.6.2 Label](#462)
+>>### [4.6.2 Label](#462)
 
-### [4.6.3 Orbit](#463)
+>>### [4.6.3 Orbit](#463)
 
-### [4.6.4 Progress Bar](#464)
+>>### [4.6.4 Progress Bar](#464)
 
-### [4.6.5 Tooltip](#465)
+>>### [4.6.5 Tooltip](#465)
 
-### [4.7 Icons](#47)
+>### [4.7 Icons](#47)
 
-### [4.8 Plugins](#48)
+>### [4.8 Plugins](#48)
 
-### [4.8.1 Toggler](#481)
+>>### [4.8.1 Toggler](#481)
 
-### [4.8.2 Smooth Scroll](#482)
+>>### [4.8.2 Smooth Scroll](#482)
 
-### [4.8.3 Sticky](#483)
+>>### [4.8.3 Sticky](#483)
 
 ## [5. Tehtävät](#5)
 
-### [5.1 Tehtävä 1](#51)
+>### [5.1 Tehtävä 1](#51)
 
-### [5.2 Tehtävä 2](#52)
+>### [5.2 Tehtävä 2](#52)
 
 ## Mitä käydään läpi
 
