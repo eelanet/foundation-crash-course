@@ -17,9 +17,9 @@
 >### [4.1 General](#41)
 >
 >>### [4.1.1 Typography](#411)
->
+>>
 >>### [4.1.2 Forms](#412)
->
+>>
 >>### [4.1.3 Visibility Classes](#413)
 
 >### [4.2 Grid](#42)
@@ -29,47 +29,47 @@
 >### [4.3 Controls](#43)
 >
 >>### [4.3.1 Buttons](#431)
->
+>>
 >>### [4.3.2 Close Button](#432)
->
+>>
 >>### [4.3.3 Button Group](#433)
->
+>>
 >>### [4.3.4 Slider](#434)
->
+>>
 >>### [4.3.5 Switch](#435)
 
 >### [4.4 Navigation](#44)
 >
 >>### [4.4.1 Menu](#441)
->
+>>
 >>### [4.4.2 Dropdown Menu](#442)
->
+>>
 >>### [4.4.3 Top Bar](#443)
->
+>>
 >>### [4.4.4 Breadcrumbs](#444)
->
+>>
 >>### [4.4.5 Pagination](#445)
 
 >### [4.5 Containers](#45)
 >
 >>### [4.5.1 Dropdown](#451)
->
+>>
 >>### [4.5.2 Off Canvas](#452)
->
+>>
 >>### [4.5.3 Tabs](#453)
->
+>>
 >>### [4.5.4 Table](#454)
 
 >### [4.6 Media](#46)
 >
 >>### [4.6.1 Responsive Embed](#461)
->
+>>
 >>### [4.6.2 Label](#462)
->
+>>
 >>### [4.6.3 Orbit](#463)
->
+>>
 >>### [4.6.4 Progress Bar](#464)
->
+>>
 >>### [4.6.5 Tooltip](#465)
 
 >### [4.7 Icons](#47)
@@ -77,21 +77,20 @@
 >### [4.8 Plugins](#48)
 >
 >>### [4.8.1 Toggler](#481)
->
+>>
 >>### [4.8.2 Smooth Scroll](#482)
->
+>>
 >>### [4.8.3 Sticky](#483)
 
 ## [5. Tehtävät](#5)
 
 >### [5.1 Tehtävä 1](#51)
->
->### [5.2 Tehtävä 2](#52)
 
 ## Mitä käydään läpi
 
 - Foundation lyhyesti
 - Asennus
+- Tiedostojen muokkaus
 - Foundation for Sites
 - HTML / CSS komponentteja
 - Grid
@@ -392,6 +391,19 @@ Sisältää erilaisia valmiiksi tehtyjä luokkia auttamaan asioissa kuten:
 
 Ladataan erikseen [täältä](https://zurb.com/playground/foundation-icon-fonts-3).
 
+Lisätään linkit tiedostoihin
+
+```
+<link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+<link rel="stylesheet" href="foundation-icons/foundation-icons.[eot/ttf/svg/woff]">
+```
+
+Käytetään esimerkiksi seuraavasti
+
+```
+<i class="fi-social-facebook"></i>
+```
+
 <a id='48'></a>
 
 ## 4.8 Plugins
@@ -412,10 +424,29 @@ Ladataan erikseen [täältä](https://zurb.com/playground/foundation-icon-fonts-
 
 ## 5. Tehtävät
 
+Valitse toinen alla olevista tehtävistä.
+
 <a id='51'></a>
 
 ### 5.1 Tehtävä 1
 
+Tehtävänä on toteuttaa portfolio nettisivu Foundation ohjelmistokehyksen avulla. Tehtävät kansion Tehtävä1 kansiosta löytyy index.html -tiedosto, jonka pohjalta sivu toteutetaan. Tiedostoon on kommentoitu kohdat, joihin täytyy tehdä muokkauksia. Kansiosta löytyy myös kuvat eri näyttöjen kuvakaappauksista.
+
+Vaatimuksena:
+
+- Sivu on responsiivinen
+- Sivu näyttää mahdollisimman paljon samalta, kuin valmiin sivun kuvakaappaukset
+
+Tehtävä kannattaa aloittaa lisäämällä/asentamalla Foundation projektiin itse valitsemalla tavalla. Tehtävän tekeminen onnistuu ilman tyylitiedostojen muokkaamista. Riittää, kun lisäät oikeat luokat.
+
 <a id='52'></a>
 
 ### 5.2 Tehtävä 2
+
+Toteuta responsiivinen nettisivu valitsemastasi aiheesta.
+
+Vaatimuksena:
+
+- Tyylit on tehty pääasiassa Foundationilla
+- Sivu on responsiivinen
+- Vähintään viittä eri Foundation komponenttia on käytetty
