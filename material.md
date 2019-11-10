@@ -207,9 +207,13 @@ Foundation ohjelmistokehyksen voi asentaa monella eri tavalla. Alla on mainittu 
 
           $ foundation new
 
+    [Tarkemmat ohjeet](https://github.com/foundation/foundation-cli)
+
 - Paketinhallinta (npm, Bower, Meteor, Composer)
 
         $ npm install foundation-sites
+
+  [Tarkemmat ohjeet](https://www.npmjs.com/package/foundation-sites)
 
 <a id='3'></a>
 
@@ -242,6 +246,8 @@ Sisältää valmiiksi tehtyjä tyylejä perinteisen typografian elementeille ja 
 - code
 - keystrokes
 
+[Dokumentit](https://foundation.zurb.com/sites/docs/typography-base.html)
+
 Sisältää erilaisia valmiiksi tehtyjä luokkia auttamaan asioissa kuten:
 
 - text alignment
@@ -250,9 +256,13 @@ Sisältää erilaisia valmiiksi tehtyjä luokkia auttamaan asioissa kuten:
 - typescale
 - statistics
 
+[Dokumentit](https://foundation.zurb.com/sites/docs/typography-helpers.html)
+
 <a id='412'></a>
 
 ### 4.1.2 Forms
+
+Esimerkki
 
 ```
 <form>
@@ -273,9 +283,26 @@ Sisältää erilaisia valmiiksi tehtyjä luokkia auttamaan asioissa kuten:
 </form>
 ```
 
+[Dokumentit](https://foundation.zurb.com/sites/docs/forms.html)
+
 <a id='413'></a>
 
 ### 4.1.3 Visibility Classes
+
+Esimerkkejä
+
+```
+<p>You are on a small screen or larger.</p>
+<p class="show-for-medium">You are on a medium screen or larger.</p>
+<p class="show-for-large">You are on a large screen or larger.</p>
+```
+
+```
+<p class="hide-for-small-only">You are <em>definitely not</em> on a small screen.</p>
+<p class="hide-for-medium-only">You are <em>definitely not</em> on a medium screen.</p>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/visibility.html)
 
 <a id='42'></a>
 
@@ -285,6 +312,41 @@ Sisältää erilaisia valmiiksi tehtyjä luokkia auttamaan asioissa kuten:
 
 ### 4.2.1 XY Grid
 
+XY Grid on kohtuullisen uusi, mutta se toimii kaikissa uusimmissa selaimissa.
+Tämän avulla responsiivisten sivujen tekeminen on nopeaa ja helppoa.
+
+Esimerkki Grid-X
+
+```
+<div class="grid-x">
+  <div class="cell">full width cell</div>
+  <div class="cell">full width cell</div>
+</div>
+<div class="grid-x">
+  <div class="cell small-6">6 cells</div>
+  <div class="cell small-6">6 cells</div>
+</div>
+<div class="grid-x">
+  <div class="cell medium-6 large-4">12/6/4 cells</div>
+  <div class="cell medium-6 large-8">12/6/8 cells</div>
+</div>
+```
+
+Esimerkki Grid-Y
+
+```
+<div class="grid-y" style="height: 500px;">
+  <div class="cell small-6 medium-8 large-2">
+    6/8/2
+  </div>
+  <div class="cell small-6 medium-4 large-10">
+    6/4/10
+  </div>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/xy-grid.html)
+
 <a id='43'></a>
 
 ## 4.3 Controls
@@ -293,25 +355,76 @@ Sisältää erilaisia valmiiksi tehtyjä luokkia auttamaan asioissa kuten:
 
 ### 4.3.1 Buttons
 
-    <!-- Anchors (links) -->
-    <a href="about.html" class="button">Learn More</a>
-    <a href="#features" class="button">View All Features</a>
+Esimerkkejä
 
-    <!-- Buttons (actions) -->
-    <button type="button" class="success button">Save</button>
-    <button type="button" class="alert button">Delete</button>
+```
+<!-- Anchors (links) -->
+<a href="about.html" class="button">Learn More</a>
+<a href="#features" class="button">View All Features</a>
+
+<!-- Buttons (actions) -->
+<button type="button" class="success button">Save</button>
+<button type="button" class="alert button">Delete</button>
+```
+
+```
+<button class="hollow button" href="#">Primary</button>
+<button class="hollow button secondary" href="#">Secondary</button>
+
+<a class="button disabled" href="#" aria-disabled>Disabled</a>
+<button type="button" class="button primary" disabled>Disabled</button>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/button.html)
 
 <a id='432'></a>
 
 ### 4.3.2 Close Button
 
+Esimerkki
+
+```
+<div class="callout" data-closable>
+  <button class="close-button" aria-label="Close alert" type="button" data-close>
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <p>Look at this close button!</p>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/close-button.html)
+
 <a id='433'></a>
 
 ### 4.3.3 Button Group
 
+Esimerkki
+
+```
+<div class="button-group">
+  <a class="button">One</a>
+  <a class="button">Two</a>
+  <a class="button">Three</a>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/button-group.html)
+
 <a id='434'></a>
 
 ### 4.3.4 Slider
+
+Esimerkki
+
+```
+<div class="slider" data-slider data-initial-start="50" data-end="200">
+  <span class="slider-handle"  data-slider-handle role="slider" tabindex="1"></span>
+  <span class="slider-fill" data-slider-fill></span>
+  <input type="hidden">
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/slider.html)
 
 <a id='435'></a>
 
@@ -430,14 +543,21 @@ Valitse toinen alla olevista tehtävistä.
 
 ### 5.1 Tehtävä 1
 
-Tehtävänä on toteuttaa portfolio nettisivu Foundation ohjelmistokehyksen avulla. Tehtävät kansion Tehtävä1 kansiosta löytyy index.html -tiedosto, jonka pohjalta sivu toteutetaan. Tiedostoon on kommentoitu kohdat, joihin täytyy tehdä muokkauksia. Kansiosta löytyy myös kuvat eri näyttöjen kuvakaappauksista.
+Tehtävänä on toteuttaa portfolio nettisivu Foundation ohjelmistokehyksen avulla. Tehtävät kansion Tehtävä1 kansiosta löytyy index.html -tiedosto, jonka pohjalta sivu toteutetaan. Tiedostoon on kommentoitu kohdat, joihin täytyy lisätä luokkia. Kansiosta löytyy myös kuvat eri näyttöjen kuvakaappauksista.
 
 Vaatimuksena:
 
 - Sivu on responsiivinen
-- Sivu näyttää mahdollisimman paljon samalta, kuin valmiin sivun kuvakaappaukset
+- Sivu näyttää mahdollisimman paljon samalta, kuin valmiiden sivujen kuvakaappaukset
 
 Tehtävä kannattaa aloittaa lisäämällä/asentamalla Foundation projektiin itse valitsemalla tavalla. Tehtävän tekeminen onnistuu ilman tyylitiedostojen muokkaamista. Riittää, kun lisäät oikeat luokat.
+
+Palauta pakattu kansio, joka sisältää vähintään:
+
+- index.html -tiedoston
+- foundation -tiedostot (paitsi jos käytetty CDN)
+- mahdolliset sivulla käytetyt kuvat
+
 
 <a id='52'></a>
 
@@ -448,5 +568,12 @@ Toteuta responsiivinen nettisivu valitsemastasi aiheesta.
 Vaatimuksena:
 
 - Tyylit on tehty pääasiassa Foundationilla
-- Sivu on responsiivinen
+- Sivu on responsiivinen (XY Grid)
 - Vähintään viittä eri Foundation komponenttia on käytetty
+- Sivu näyttää kohtuullisen siistiltä
+
+Palauta pakattu kansio, joka sisältää vähintään:
+
+- index.html -tiedoston
+- foundation -tiedostot (paitsi jos käytetty CDN)
+- mahdolliset sivulla käytetyt kuvat
