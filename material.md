@@ -57,8 +57,6 @@
 >>### [4.5.2 Off Canvas](#452)
 >>
 >>### [4.5.3 Tabs](#453)
->>
->>### [4.5.4 Table](#454)
 
 >### [4.6 Media](#46)
 >
@@ -78,9 +76,7 @@
 >
 >>### [4.8.1 Toggler](#481)
 >>
->>### [4.8.2 Smooth Scroll](#482)
->>
->>### [4.8.3 Sticky](#483)
+>>### [4.8.2 Sticky](#482)
 
 ## [5. Tehtävät](#5)
 
@@ -430,6 +426,20 @@ Esimerkki
 
 ### 4.3.5 Switch
 
+Esimerkki
+
+```
+<div class="switch">
+  <input class="switch-input" id="exampleSwitch" type="checkbox" name="exampleSwitch">
+  <label class="switch-paddle" for="exampleSwitch">
+    <span class="show-for-sr">Download Kittens</span>
+  </label>
+</div>
+
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/switch.html)
+
 <a id='44'></a>
 
 ## 4.4 Navigation
@@ -438,21 +448,121 @@ Esimerkki
 
 ### 4.4.1 Menu
 
+Esimerkki
+
+```
+<ul class="menu align-right">
+  <li><a href="#">One</a></li>
+  <li><a href="#">Two</a></li>
+  <li><a href="#">Three</a></li>
+  <li><a href="#">Four</a></li>
+</ul>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/menu.html)
+
 <a id='442'></a>
 
 ### 4.4.2 Dropdown Menu
+
+Esimerkki
+
+```
+<ul class="dropdown menu" data-dropdown-menu>
+  <li>
+    <a href="#">Item 1</a>
+    <ul class="menu">
+      <li><a href="#">Item 1A</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Item 2</a></li>
+  <li><a href="#">Item 3</a></li>
+  <li><a href="#">Item 4</a></li>
+</ul>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/dropdown-menu.html)
+
 
 <a id='443'></a>
 
 ### 4.4.3 Top Bar
 
+Esimerkki
+
+```
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Site Title</li>
+      <li>
+        <a href="#">One</a>
+        <ul class="menu vertical">
+          <li><a href="#">One</a></li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Two</a></li>
+      <li><a href="#">Three</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><input type="search" placeholder="Search"></li>
+      <li><button type="button" class="button">Search</button></li>
+    </ul>
+  </div>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/top-bar.html#)
+
+
 <a id='444'></a>
 
 ### 4.4.4 Breadcrumbs
 
+Esimerkki
+
+```
+<nav aria-label="You are here:" role="navigation">
+  <ul class="breadcrumbs">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Features</a></li>
+    <li class="disabled">Gene Splicing</li>
+    <li>
+      <span class="show-for-sr">Current: </span> Cloning
+    </li>
+  </ul>
+</nav>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/breadcrumbs.html)
+
 <a id='445'></a>
 
 ### 4.4.5 Pagination
+
+Esimerkki
+
+```
+<nav aria-label="Pagination">
+  <ul class="pagination">
+    <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+    <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+    <li><a href="#" aria-label="Page 2">2</a></li>
+    <li><a href="#" aria-label="Page 3">3</a></li>
+    <li><a href="#" aria-label="Page 4">4</a></li>
+    <li class="ellipsis" aria-hidden="true"></li>
+    <li><a href="#" aria-label="Page 12">12</a></li>
+    <li><a href="#" aria-label="Page 13">13</a></li>
+    <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+  </ul>
+</nav>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/pagination.html)
 
 <a id='45'></a>
 
@@ -462,17 +572,67 @@ Esimerkki
 
 ### 4.5.1 Dropdown
 
+Esimerkki
+
+```
+<button class="button" type="button" data-toggle="example-dropdown2">Top Aligned</button>
+
+<div class="dropdown-pane top" id="example-dropdown2" data-dropdown>
+  Just some junk that needs to be said. Or not. Your choice.
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/dropdown.html)
+
+
 <a id='452'></a>
 
 ### 4.5.2 Off Canvas
+
+Esimerkki
+
+```
+<div class="off-canvas-wrapper">
+  <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+    <h2>Content</h2>
+  </div>
+  <div class="off-canvas-content" data-off-canvas-content>
+    <h2>Content</h2>
+    <button type="button" class="button" data-toggle="offCanvas">Open Menu</button>
+  </div>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/off-canvas.html)
+
 
 <a id='453'></a>
 
 ### 4.5.3 Tabs
 
-<a id='454'></a>
+Esimerkki
 
-### 4.5.4 Table
+```
+<ul class="tabs" data-tabs id="example-tabs">
+  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+  <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">Tab 2</a></li>
+</ul>
+
+<div class="tabs-content" data-tabs-content="example-tabs">
+  <div class="tabs-panel is-active" id="panel1">
+    <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh
+      porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse
+      dictum feugiat nisl ut dapibus.</p>
+  </div>
+  <div class="tabs-panel" id="panel2">
+    <p>Suspendisse dictum feugiat nisl ut dapibus. Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla
+      enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Sed auctor neque eu tellus rhoncus
+      ut eleifend nibh porttitor.</p>
+  </div>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/tabs.html)
 
 <a id='46'></a>
 
@@ -482,21 +642,119 @@ Esimerkki
 
 ### 4.6.1 Responsive Embed
 
+Esimerkki
+
+```
+<div class="responsive-embed">
+  <iframe width="420" height="315" src="https://www.youtube.com/embed/mM5_T-F1Yn4" frameborder="0" allowfullscreen></iframe>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/responsive-embed.html)
+
+
 <a id='462'></a>
 
 ### 4.6.2 Label
+
+Esimerkki
+
+```
+<span class="label primary">Primary Label</span>
+<span class="label secondary">Secondary Label</span>
+<span class="label success">Success Label</span>
+<span class="label alert">Alert Label</span>
+<span class="label warning">Warning Label</span>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/label.html)
+
 
 <a id='463'></a>
 
 ### 4.6.3 Orbit
 
+Esimerkki
+
+```
+<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="https://placehold.it/1200x600/999?text=Slide-1" alt="Space">
+          <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="https://placehold.it/1200x600/888?text=Slide-2" alt="Space">
+          <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="https://placehold.it/1200x600/777?text=Slide-3" alt="Space">
+          <figcaption class="orbit-caption">Encapsulating</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="https://placehold.it/1200x600/666&text=Slide-4" alt="Space">
+          <figcaption class="orbit-caption">Outta This World</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+  <nav class="orbit-bullets">
+    <button class="is-active" data-slide="0">
+      <span class="show-for-sr">First slide details.</span>
+      <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+    </button>
+    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+  </nav>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/orbit.html)
+
+
 <a id='464'></a>
 
 ### 4.6.4 Progress Bar
 
+Esimerkki
+
+```
+<div class="progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+  <span class="progress-meter" style="width: 25%">
+    <p class="progress-meter-text">25%</p>
+  </span>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/progress-bar.html)
+
+
 <a id='465'></a>
 
 ### 4.6.5 Tooltip
+
+Esimerkki
+
+```
+The <span data-tooltip tabindex="1" title="Fancy word for a beetle.">scarabaeus</span> hung quite
+clear of any branches, and, if allowed to fall, would have fallen at our feet.
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/tooltip.html)
+
 
 <a id='47'></a>
 
@@ -525,13 +783,43 @@ Käytetään esimerkiksi seuraavasti
 
 ### 4.8.1 Toggler
 
+Esimerkki
+
+```
+<p><a data-toggle="panel">Toggle Panel</a></p>
+
+<div class="callout" id="panel" data-toggler data-animate="hinge-in-from-top spin-out">
+  <h4>Hello!</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quas optio alias voluptas nobis iusto mollitia asperiores incidunt reprehenderit doloribus voluptatibus officiis minus, inventore, quasi nisi. Consequuntur, quidem. Sint, dicta?</p>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/toggler.html#)
+
+
 <a id='482'></a>
 
-### 4.8.2 Smooth Scroll
+### 4.8.2 Sticky
 
-<a id='483'></a>
+Esimerkki
 
-### 4.8.3 Sticky
+```
+<div class="cell small-6 right" data-sticky-container>
+  <div class="sticky" data-sticky data-margin-top="0">
+    <img class="thumbnail" src="assets/img/generic/rectangle-3.jpg">
+    <!-- This sticky element would stick to the window, with a marginTop of 0 -->
+  </div>
+</div>
+
+<div class="cell small-6 right" data-sticky-container>
+  <div class="sticky" data-sticky data-anchor="foo">
+    <img class="thumbnail" src="assets/img/generic/rectangle-3.jpg">
+    <!-- This sticky element would stick to the window for the height of the element #foo, with a 1em marginTop -->
+  </div>
+</div>
+```
+
+[Dokumentit](https://foundation.zurb.com/sites/docs/sticky.html)
 
 <a id='5'></a>
 
