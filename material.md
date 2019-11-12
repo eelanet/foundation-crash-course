@@ -834,7 +834,7 @@ Valitse toinen alla olevista tehtävistä.
 
 ### 5.1 Tehtävä 1
 
-Tehtävänä on toteuttaa portfolio nettisivu Foundation ohjelmistokehyksen avulla. Tehtävät kansion Tehtävä1 kansiosta löytyy index.html -tiedosto, jonka pohjalta sivu toteutetaan. Tiedostoon on kommentoitu kohdat, joihin täytyy lisätä luokkia. Kansiosta löytyy myös kuvat eri näyttöjen kuvakaappauksista.
+Tehtävänä on toteuttaa portfolio nettisivu Foundation ohjelmistokehyksen avulla. Tehtävät kansion [Tehtävä1](https://github.com/eelanet/foundation-crash-course/tree/master/teht%C3%A4v%C3%A4t/teht%C3%A4v%C3%A41) kansiosta löytyy index.html -tiedosto, jonka pohjalta sivu toteutetaan. Tiedostoon on kommentoitu kohdat, joihin täytyy lisätä luokkia. Kansiosta löytyy myös kuvat eri näyttöjen kuvakaappauksista.
 
 Vaatimuksena:
 
@@ -847,7 +847,7 @@ Palauta pakattu kansio, joka sisältää vähintään:
 
 - index.html -tiedoston
 - foundation -tiedostot (paitsi jos käytetty CDN)
-- mahdolliset sivulla käytetyt kuvat
+- mahdolliset sivulla käytetyt kuvat (voit poistaa valmiin_sivun_kuvat -kansion)
 
 
 <a id='52'></a>
